@@ -19,8 +19,8 @@ In a sealed class:
 ## Part 1: Sealing a Class and Restricting Inheritance
 
 #### Task:
-1. Create a **sealed class** `Shape` with two methods: `area()` and `perimeter()`, both returning `double`.
-2. Use the `permits` keyword to allow only the classes `Circle` and `Rectangle` to extend `Shape`.
+1. Create a **sealed class** `AnonymousClass.Shape` with two methods: `area()` and `perimeter()`, both returning `double`.
+2. Use the `permits` keyword to allow only the classes `Circle` and `Rectangle` to extend `AnonymousClass.Shape`.
 3. Create the `Circle` class with a constructor that takes the radius and implements `area()` and `perimeter()` methods.
 4. Create the `Rectangle` class with a constructor that takes width and height and implements `area()` and `perimeter()` methods.
 5. Create a main method to test the classes by creating objects of `Circle` and `Rectangle`, and printing the area and perimeter.
@@ -51,7 +51,7 @@ In a sealed class:
 ## Part 4: Understanding the Restrictions of Sealed Classes
 
 #### Task:
-1. Attempt to create a class `Triangle` that extends `Shape` from Part 1.
+1. Attempt to create a class `Triangle` that extends `AnonymousClass.Shape` from Part 1.
 2. Explain why this class cannot be created and what the restriction is with respect to sealed classes.
 3. Create another class `LoanAccount` that tries to implement the `Account` interface from Part 3. 
 4. Again, explain the restriction regarding `sealed` interfaces and why `LoanAccount` is not allowed.
